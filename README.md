@@ -1,0 +1,3 @@
+# Uncommon Dart Error: Re-throwing Exceptions
+
+This repository demonstrates a subtle error in Dart exception handling: using `rethrow` in a `try-catch` block. While functional, this approach can complicate debugging and obscure the root cause of errors. The example showcases a `fetchData` function fetching data from an API, implementing error handling with `rethrow`. The `main` function then attempts to handle the exception.  The improved solution is provided, showcasing better ways to deal with errors.
